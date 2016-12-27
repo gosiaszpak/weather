@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Cartography (0.7.0)
+  - FlickrKit (1.0.8)
+  - FXBlurView (1.6.4)
+  - LatoFont (1.0.1)
+  - NVActivityIndicatorView (3.0)
+  - SwiftyJSON (3.1.1)
+  - WeatherIconsKit (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Cartography (from `https://github.com/robb/Cartography.git`, branch `swift3_ci`)
+  - FlickrKit (~> 1.0.5)
+  - FXBlurView (~> 1.6.4)
+  - LatoFont (from `https://github.com/gscalzo/LatoFont.git`)
+  - NVActivityIndicatorView
+  - SwiftyJSON (~> 3.1.1)
+  - WeatherIconsKit (from `https://github.com/gscalzo/WeatherIconsKit.git`)
+
+EXTERNAL SOURCES:
+  Cartography:
+    :branch: swift3_ci
+    :git: https://github.com/robb/Cartography.git
+  LatoFont:
+    :git: https://github.com/gscalzo/LatoFont.git
+  WeatherIconsKit:
+    :git: https://github.com/gscalzo/WeatherIconsKit.git
+
+CHECKOUT OPTIONS:
+  Cartography:
+    :commit: 974961cbace94194eaa9ac1291fd807822755a20
+    :git: https://github.com/robb/Cartography.git
+  LatoFont:
+    :commit: 2739e4c28c92c82ca2c7daf289a238d62af01c42
+    :git: https://github.com/gscalzo/LatoFont.git
+  WeatherIconsKit:
+    :commit: effa8476b88010a5ea6d3cfcf5fb81db87ff5bfa
+    :git: https://github.com/gscalzo/WeatherIconsKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Cartography: dd6044b6fe352252f68b648df5bff47841e591cc
+  FlickrKit: beadf880a10ccaa2f13666d04112324fe08815e2
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  LatoFont: 0bfeace154ee2da6080123d0e80560f6e22b187d
+  NVActivityIndicatorView: 81953b5e65093ba79edf4fe7268e002039ca5268
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  WeatherIconsKit: 84526a4cdf9da972c2866f24e40360420b1d40bf
+
+PODFILE CHECKSUM: ecf25e4cc995dcc23d240230ef70f24668bc9359
+
+COCOAPODS: 1.1.0.rc.3
